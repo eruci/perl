@@ -1,4 +1,4 @@
-# Intro
+# Introduction
 
 Imagine you want to parse free-form address input and match it against a database representing the road network. 
 
