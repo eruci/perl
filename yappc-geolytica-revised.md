@@ -12,7 +12,7 @@ Imagine you want to parse free-form address input and match it against a databas
 - **Output:** `"5 THREADNEEDLE STREET, LONDON, United Kingdom EC3V 3NG"`  
   [View example](https://geocode.xyz/5%20Adne%20Edle%20Street,%20London?region=UK)
 
-The database contains road names, numbers, zip/postal codes,i city names, regions, neighborhood/district names, shapes, and more—billions of named location entities worldwide. Add another 100 million points of interest extracted from billions of webpages, and the problem becomes quite difficult.
+The database contains road names, numbers, zip/postal codes, city names, regions, neighborhood/district names, shapes, and more—billions of named location entities worldwide. Add another 100 million points of interest extracted from billions of webpages, and the problem becomes quite difficult.
 
 Two decades of Perl coding, starting in 2005, and this problem is (mostly) solved at Geolytica.
 
@@ -20,11 +20,11 @@ Two decades of Perl coding, starting in 2005, and this problem is (mostly) solve
 
 ## Perl at Geolytica
 
-At Geolytica, we harness Perl to manage and enhance vast geo-location datasets and build the application logic of geocoding engines powering [geocoder.ca](https://geocoder.ca) and [geocode.xyz](https://geocode.xyz).
+At Geolytica, we harness Perl to manage and enhance vast geo-location datasets and build the application logic of the geocoding engines powering [geocoder.ca](https://geocoder.ca) and [geocode.xyz](https://geocode.xyz).
 
 ### Data Cleanup and Enhancement
 
-One standout example is our work with OpenStreetMap's POI data. A year ago, we utilized an in-house AI tool, playfully called "PerlGPT," to refine this dataset, correcting inconsistencies and enhancing data quality. The results were significant enough to share with the community at [Free POI Data](https://poidata.xyz/odbl).
+We continuously update and enhance our location entities database, because ground truth changes - at the speed of life. One standout example is our work with OpenStreetMap's POI data. A year ago, we utilized an in-house AI tool, (let's call it "PerlGPT,") to refine this dataset, correcting inconsistencies and enhancing data quality. The results were significant enough to share with the community at [Free POI Data](https://poidata.xyz/odbl).
 
 ### Perl's Versatility and Stability
 
