@@ -38,7 +38,7 @@ At Geolytica, tasks like parsing location entities from text involve complex str
 
 ## Final Thoughts
 
-The best programming language for any job is the one that makes average problems easy and difficult ones possible. For Geolytica, that language is Perl.
+The best programming language for any job is the one that makes hard problems easy and impossible ones possible. For Geolytica, that language is Perl.
 
 ---
 
